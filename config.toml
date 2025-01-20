@@ -1,2 +1,3 @@
 [server]
 runOnsave = true
+unsafe_allow_html=True
