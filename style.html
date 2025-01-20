@@ -13,15 +13,16 @@ div [data-testid="stMainBlockContainer"] {
 .title {
     color: white;
     text-align: center;
-    border: 3px solid green;
-    background-color: #535353;
+   
 }
 
 
 div [data-testid="stHorizontalBlock"]{
     display: flex;                /* Enables flexbox for centering */
-    justify-content: center;
-    border: 3px solid green;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    text-align: center;
+    border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,4);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
@@ -35,19 +36,15 @@ div [data-testid="stHorizontalBlock"]:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 4);
     }
 
-div [data-testid="stVerticalBlock"]{
-
-    text-align: center;
-}
-    
+ 
 
 
 div [data-testid="stBaseButton-secondary"]{
-    text-align: center;
-    padding-block: 25px;
+   
+    padding-block: 20px;
     width: 50%;
     background: transparent;
-    border: 2px solid blue;
+    border: none;
     cursor: pointer;
    
 }

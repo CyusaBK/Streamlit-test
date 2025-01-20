@@ -27,7 +27,7 @@ st.markdown(
             display: flex;                /* Enables flexbox for centering */
             justify-content: center;      /* Centers horizontally */
             align-items: center;          /* Centers vertically */
-            top: 40px;                    /* Offset from the top */
+            top: 35px;                    /* Offset from the top */
                             /* Ensure it spans from the left edge */
             width: 100%;                  /* Full width of parent */
             height: 100%;
